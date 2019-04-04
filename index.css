@@ -1,0 +1,14 @@
+.container {
+  align-items: center;
+}
+#todo-list {
+  align-items: center;
+  padding: 5px 10px;
+  border: solid 2px black;
+  width: 50%;
+  height: 50%;
+}
+#todo-list > li {
+  display: flex;
+  justify-content: space-between;
+}
